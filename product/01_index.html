@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Zeus | Take the Charge!</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="../photos/zeus-logo.png" alt="Pocket Zeus logo">
+        </div>
+
+        <nav>
+            <div class="dropdown">
+                <button class="nav-btn">Product</button>
+
+                <div class="dropdown-menu">
+                    <a href="#survey">Survey</a>
+                    <a href="#features">Features</a>
+                    <a href="#how">How It Works</a>
+                    <a href="#about">App Control</a>
+                </div>
+            </div>
+
+            <a href="#features">Features</a>
+            <a href="#buy">Shop</a>
+        </nav>
+
+    </header>
+
+    <main class="hero">
+        <div class="product-info">
+            <p class="tagline">Pocket power grip</p>
+
+            <h1>Take the charge.</h1>
+
+            <div class="hero-survey">
+                <p class="survey-question">What do you need most from a charger?</p>
+
+                <div class="hero-survey-options">
+                    <button type="button" onclick="showResult('convenience')">Convenience</button>
+                    <button type="button" onclick="showResult('fast')">Fast charge</button>
+                    <button type="button" onclick="showResult('bulk')">Less bulk</button>
+                    <button type="button" onclick="showResult('dock')">Desk ready</button>
+                </div>
+
+                <p id="surveyResult" class="survey-result"> Pick one to see how Pocket Zeus fits.</p>
+            </div>
+
+            <ul>
+                <li>Magnetic detachable charger</li>
+                <li>App-activated power boost</li>
+                <li>Charges on its own dock</li>
+            </ul>
+
+            <p class="price">$26.99</p>
+
+            <button>Add to Cart</button>
+
+            <p class="scroll-cue">Scroll to find your charge style</p>
+        </div>
+    </main>
+
+    <section id="survey" class="survey">
+        <p class="tagline">Quick check</p>
+        <h2>What are you looking for in a charger?</h2>
+
+        <div class="survey-grid">
+            <div class="survey-card">
+                <h3>Convenience</h3>
+                <p>I want backup power without carrying extra cables.</p>
+            </div>
+
+            <div class="survey-card">
+                <h3>Fast-Charging</h3>
+                <p>I need power before my phone hits panic-mode.</p>
+            </div>
+
+            <div class="survey-card">
+                <h3>Low Bulk</h3>
+                <p>I hate bulky power banks hanging off my phone.</p>
+            </div>
+
+            <div class="survey-card">
+                <h3>Desk Ready</h3>
+                <p>I want it charged while I'm not thinking about it.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="answer">
+        <h2> Pocket Zeus is built for all four.</h2>
+        <p>Grip it like a phone stand, snap it like a charger, trigger it from the app.</p>
+
+        <div class="answer-tags">
+            <span>Convenient</span>
+            <span>Fast</span>
+            <span>Compact</span>
+            <span>Dock-ready</span>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <p class="tagline">Features</p>
+        <h2>Small grip, serious charge.</h2>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Magnetic Detachable Charger</h3>
+                <p> Detach the power core when you want less bulk, then snap it back when your battery drops.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>App-Activated Power Boost</h3>
+                <p>Start charging through the app instead of wasting stored power all day.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Self-Charging Dock</h3>
+                <p>Drop it on the dock after class, work, or doomscrolling. Let it recharge for the next round.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how" class="how">
+        <p class="tagline">How it works</p>
+        <h2>Stick. Snap. Tap.</h2>
+
+        <div class="steps">
+
+            <div class="step">
+                <span>Step 1:</span>
+                <h3>Stick</h3>
+                <p>Attach Pocket Zeus to the back of your phone like a regular grip.</p>
+            </div>
+
+            <div class="step">
+                <span>Step 2:</span>
+                <h3>Snap</h3>
+                <p>Connect the magneting charging module when your battery gets low.</p>
+            </div>
+
+            <div class="step">
+                <span>Step 3:</span>
+                <h3>Tap</h3>
+                <p>Open the app and activate your power boost only when you need it.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="app" class="app-section">
+        <div class="app-text">
+            <p class="tagline">App control</p>
+            <h2>Control the charge</h2>
+            <p>The Pocket Zeus app lets you activate charging, check dock status, and see how much backup power you have
+                left.</p>
+        </div>
+
+        <div class="phone-mockup">
+            <img src="../photos/phone-mock.png" alt="Pocket Zeus app mockup">
+        </div>
+    </section>
+
+    <section class="dock">
+        <p class="tagline">Charging dock</p>
+        <h2>Recharge the charger.</h2>
+        <p>Set it on the dock. Wake up ready. No cable nest required.</p>
+    </section>
+
+    <section id="buy" class="final-cta">
+        <h2>Take the charge.</h2>
+        <p>Pocket power for people who forget their charger until it's too late.</p>
+        <button>Add to Cart - $26.99</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Pocket Zeus | Iris Cabbab [CGD 210 Assignment 2]</p>
+    </footer>
+
+    <script>
+        function showResult(choice) {
+            const result = document.getElementById("surveyResult");
+
+            if (choice === "convenience") {
+                result.textContent = "Pocket Zeus keeps backup power on your phone without extra cables.";
+            }
+
+            if (choice === "fast") {
+                result.textContent = "Activate a quick power boost through the app when your battery starts getting dramatic.";
+            }
+
+            if (choice === "bulk") {
+                result.textContent = "Use it as a regular grip, then snap on the charger only when needed.";
+            }
+
+            if (choice === "dock") {
+                result.textContent = "Drop it on its dock so your backup charger is ready before you leave.";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
